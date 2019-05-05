@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profil"
+            android:title="Profile" />
+    </group>
+
+    <item android:title="Social Activity">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_daily"
+                    android:icon="@drawable/ic_menu_daily"
+                    android:title="Daily Activity" />
+                <item
+                    android:id="@+id/nav_friend"
+                    android:icon="@drawable/ic_menu_friend"
+                    android:title="Friend List" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Hiburan">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_music"
+                    android:icon="@drawable/ic_menu_music"
+                    android:title="Music" />
+                <item
+                    android:id="@+id/nav_video"
+                    android:icon="@drawable/ic_menu_video"
+                    android:title="Video" />
+            </group>
+        </menu>
+    </item>
+</menu>
